@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 import os
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model 
 
 # Get absolute path of Model folder
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
